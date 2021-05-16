@@ -9,7 +9,21 @@ body{
     font-family:'lato'; /*Es el tipo de letra o familia de tipos de letra es el tipo de letra que se aplicará al cuerpo de texto en un navegador*/
     font-size: 16px; /*Es el tamaño de la fuente de letra */
 }
-
+img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+p{
+    text-align: justify;
+}
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+}
 .contenedor{
     width: 90%;/*el archo de la pagina web porcentaje que se adapta segun al tamaño del navegador */
     max-width: 1000px; /*Así max-width define el ancho máximo que un elemento puede tener.max-width cambia el tamaño del elemento si el valor de width es mayor
